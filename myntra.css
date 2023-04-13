@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+margin: 0;
+padding: 0;
+    height: 57px;
+    background-color: white;
+   color: black;
+   position: relative;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+
+}
+nav .search .profile{
+   margin-top: 60px;
+    padding: 4px;
+    
+}
+
+
+nav .search .wishlist{
+    margin-top: 60px;
+   
+}
+
+nav .search .bag{
+    margin-top: 60px;
+    padding: 23px;
+}
+header nav div img{
+    cursor: pointer;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    color: black;
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a:hover{
+    color: rgb(219, 177, 177);
+    font-weight: 100;
+}
+
+.search{
+    display: flex;
+    align-items: center ;
+    height: 90px;
+   
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    display: flex;
+    width: 100vw;
+    
+    margin: 52px;
+    overflow: scroll;
+    align-items: center;
+}
+.offer{
+   
+    text-align: center;
+    background-color: rgb(227, 227, 117);
+   
+}
+.offer .button:hover{
+    cursor: pointer;
+   background-color: rgb(96, 96, 224);
+  
+}
+.card{
+    overflow: scroll;
+    max-width: 96vw;
+    background-color: rgb(201, 201, 90);
+    margin: 10px;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 37px 5px;
+}
